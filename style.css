@@ -1764,3 +1764,6 @@
 .modal-card .btn-cta-block{margin-top:1.25rem}
 .modal-decline{display:block;margin-top:.9rem;border:2px solid rgba(0,0,0,.35);border-radius:999px;padding:.85rem 1rem;text-align:center;font-weight:800;font-size:.9rem;line-height:1.3;color:var(--charcoal);text-decoration:none;transition:background .2s}
 .modal-decline:hover{background:rgba(0,0,0,.06)}
+
+/* texto dos botões sempre centralizado, mesmo quebrando em 2 linhas */
+.btn-cta,.btn-outline{text-align:center}
