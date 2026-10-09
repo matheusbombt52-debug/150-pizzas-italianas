@@ -1,0 +1,8 @@
+wrangler.jsonc
+.assetsignore
+_redirects
+_headers
+node_modules
+.git
+.github
+.wrangler
