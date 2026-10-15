@@ -1767,3 +1767,32 @@
 
 /* texto dos botões sempre centralizado, mesmo quebrando em 2 linhas */
 .btn-cta,.btn-outline{text-align:center}
+
+/* pop-up compacto para celular (sem rolagem) */
+.modal-overlay{padding:.6rem}
+.modal-card{padding:1rem 1rem 1.1rem;max-height:calc(100dvh - 1.2rem)}
+@media(min-width:768px){.modal-card{padding:1.5rem 1.75rem}}
+.modal-close{top:.35rem;right:.45rem;width:2rem;height:2rem;font-size:1.4rem}
+.modal-badge{display:inline-block;border-radius:999px;background:#d32f2f;color:#fff;padding:.3rem .9rem;font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 4px 14px rgba(211,47,47,.45);animation:badgePulse 1.6s ease-in-out infinite}
+@keyframes badgePulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+.modal-title{margin-top:.55rem;font-family:var(--font-display);font-weight:900;line-height:1.1;color:var(--charcoal);font-size:1.55rem}
+@media(min-width:768px){.modal-title{font-size:2.1rem}}
+.modal-card .offer-from{margin-top:.5rem;font-size:.95rem}
+.modal-card .offer-price{font-size:2.6rem}
+.modal-card .offer-save{margin-top:.1rem;font-size:.8rem}
+.modal-card .offer-box{margin-top:.7rem;padding:.65rem .85rem}
+.modal-card .offer-box-title{font-size:.85rem}
+.modal-card .offer-box .offer-list{margin:.5rem 0 0;gap:.3rem;font-size:.85rem}
+.offer-value{margin-top:.6rem;border-radius:.7rem;background:rgba(85,107,47,.14);padding:.4rem .6rem;text-align:center;font-weight:900;font-size:.9rem;color:var(--olive)}
+.modal-card .btn-cta-block{margin-top:.8rem;padding:.8rem 1rem;font-size:.95rem}
+.modal-decline{margin-top:.55rem;padding:.65rem .9rem;font-size:.85rem}
+@media(max-width:400px){
+.modal-title{font-size:1.4rem;margin-top:.45rem}
+.modal-card .offer-from{margin-top:.35rem;font-size:.9rem}
+.modal-card .offer-price{font-size:2.3rem}
+.modal-card .offer-box{margin-top:.55rem;padding:.55rem .75rem}
+.modal-card .offer-box .offer-list{margin-top:.4rem;gap:.22rem;font-size:.82rem}
+.offer-value{margin-top:.45rem;padding:.3rem .5rem;font-size:.85rem}
+.modal-card .btn-cta-block{margin-top:.65rem;padding:.7rem .9rem;font-size:.9rem}
+.modal-decline{margin-top:.45rem;padding:.55rem .8rem;font-size:.8rem}
+}
